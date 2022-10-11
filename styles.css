@@ -1,4 +1,29 @@
-body{
+@font-face {
+  font-family: 'YesevaOne';
+  src: url("fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("fonts/Opensans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("fonts/Opensans-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Gentium-Bold';
+  src: url("fonts/GentiumBookBasic-Bold.ttf");
+}
+
+body {
   margin: 0;
   width: 1600px;
 }
