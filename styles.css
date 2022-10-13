@@ -28,6 +28,68 @@ body {
   width: 1600px;
 }
 
+header {
+  background-image: url("images/bg_header.png");
+  height: 159px;
+  margin-bottom: -159px;
+  position: relative;
+  text-align: center;
+}
+
+header .title-text {
+  font-family: 'YesevaOne', sans-serif;
+  color: #f0f0f0;
+  font-size: 36px;
+  text-align: center;
+  margin-left: 11.2%;
+  margin-right: 227px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: stretch;
+  height: 81px;
+}
+
+header .nav {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 735px;
+  font-family: 'Gentium-Bold', sans-serif;
+  font-size: 21px;
+  color: white;
+}
+
+header .nav > div:first-child {
+  border-top: 3px solid #c2c0b8;
+}
+
+header .nav > div {
+  display: flex;
+  border-top: 3px solid transparent;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 9px;
+}
+
+header .nav > div > div {
+  align-self: end;
+}
+
+header .socials {
+  color: #dab33e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 83px;
+  padding-bottom: 12px;
+  margin-left: 7px;
+}
+
 #promo {
   background-image: url("images/bg_promo.png");
   height: 750px;
@@ -37,7 +99,7 @@ body {
   width: 1000px;
   margin: auto;
   text-align: center;
-  padding-top: 13.5%;
+  padding-top: 216px;
 }
 
 #promo .main-txt {
