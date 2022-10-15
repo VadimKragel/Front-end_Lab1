@@ -29,7 +29,6 @@ body {
   margin: 0;
   width: 1600px;
 }
-
 header {
   background-image: url("images/bg_header.png");
   height: 159px;
@@ -407,7 +406,8 @@ footer .text {
 }
 
 #reservations .label{
-  font-family: 'OpenSans-Bold', serif;
+  font-family: 'OpenSans', serif;
+  font-weight: bold;
   font-size: 14px;
   color: #c9a131;
 }
@@ -420,8 +420,8 @@ footer .text {
 }
 
 #reservations .input{
-  font-family: 'OpenSans-Regular', serif;
-  font-style: italic;
+  font-family: 'OpenSans', serif;
+  font-weight: normal;
   font-size: 16px;
   color: #7c7c7c;
   width: 189px;
@@ -432,7 +432,9 @@ footer .text {
   padding-left: 7px;
   word-spacing: -2px;
 }
-
+::placeholder{
+  font-style: italic;
+}
 #reservations .right-inputs{
   text-align: left;
   display: flex;
@@ -457,12 +459,13 @@ footer .text {
 }
 
 #reservations .button{
-  border: 1px solid #c9a131;
-  background-color: #c9a131;
-  color: white;
-  font-family: 'OpenSans-Regular', serif;
+  border: none;
+  background-color: #a89e72;
+  color: #b4b4b4;
+  font-family: 'OpenSans', serif;
+  font-weight: normal;
   font-size: 16px;
-  width: 200px;
+  width: 202px;
   margin-left: 4px;
   height: 36px;
 }

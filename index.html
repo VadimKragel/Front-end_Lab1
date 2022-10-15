@@ -187,19 +187,19 @@
       <span class="text-description-bottom">
         Delicious Lambda cakes,&nbsp muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
       </span>
-      <form class="inputs-button">
+      <form class="inputs-button" onsubmit="alert('Good');">
         <div class="inputs">
           <div class="left-inputs">
             <label id="name-label" for="name" class="label">Name</label>
-            <input type="text" class = "input" id="name" placeholder="  your name *" required>
+            <input type="text" class="input" id="name" placeholder="  your name *" required>
             <label id="date-label" for="date" class="label">Date</label>
-            <input type="text" class = "input" id="date" placeholder="  date *" required>
+            <input type="text" class="input" id="date" placeholder="  date *" required>
           </div>
           <div class="right-inputs">
             <label id="email-label" for="email" class="label">Name</label>
-            <input type="text" class = "input" id="email" placeholder="  your email *" required>
+            <input type="text" class="input" id="email" placeholder="  your email *" required>
             <label id="party-label" for="party-number" class="label">Party number</label>
-            <input type="text" class = "input" id="party-number" placeholder="  party number" required>
+            <input type="text" class="input" id="party-number" placeholder="  party number">
           </div>
         </div>
         <div>
@@ -242,5 +242,16 @@
     </div>
   </div>
 </footer>
+<script>
+    const req = document.querySelectorAll("#reservations .inputs-button  input:required");
+    req.forEach(
+      element => element.oninput = function () {
+        let isEmpty = false;
+        req.forEach(element => isEmpty ||= (element.value == null || element.value === ""));
+        const btn = document.querySelector("#reservations .button");
+        btn.style.backgroundColor = isEmpty ? this.style.backgroundColor : "#c9a131";
+        btn.style.color = isEmpty ? this.style.backgroundColor : "white";
+      });
+</script>
 </body>
 </html>
