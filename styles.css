@@ -398,6 +398,103 @@ footer .text {
   margin-bottom: 23px;
 }
 
+#reservations .content-box {
+  width: 436px;
+  text-align: center;
+  padding-top: 97px;
+  padding-right: 114px;
+  padding-left: 96px;
+}
+
+#reservations .label {
+  font-family: 'OpenSans', serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #c9a131;
+}
+
+#reservations .left-inputs {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+}
+
+#reservations .input {
+  font-family: 'OpenSans', serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7c7c7c;
+  width: 189px;
+  background: rgba(255, 255, 255, 0.45);
+  margin-top: 7px;
+  border: 1px solid #c9c9c9;
+  height: 31px;
+  padding-left: 7px;
+  word-spacing: -2px;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+#reservations .right-inputs {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  margin-right: 6px;
+}
+
+#reservations .inputs {
+  display: flex;
+  width: 436px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 37px;
+  margin-left: 3px;
+  height: 178px;
+}
+
+#reservations .input:focus {
+  border: 1px solid #c9a131;
+  outline: none;
+}
+
+#reservations .button {
+  border: none;
+  background-color: #a89e72;
+  color: #b4b4b4;
+  font-family: 'OpenSans', serif;
+  font-weight: normal;
+  font-size: 16px;
+  width: 202px;
+  margin-left: 4px;
+  height: 36px;
+}
+
+#reservations #date-label {
+  margin-top: 24px;
+  margin-bottom: -2px;
+}
+
+#reservations #email {
+  margin-top: 7px;
+}
+
+#reservations #party-label {
+  margin-top: 24px;
+}
+
+#reservations #party-number {
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.45) url("images/icon_arrow.png") 177px 14px no-repeat;
+}
+
+#reservations #date {
+  background: rgba(255, 255, 255, 0.45) url("images/icon_date.png") 175px 8px no-repeat;
+}
+
 #ingredients {
   background-image: url("images/bg_ingredients.png");
   height: 758px;
@@ -412,7 +509,7 @@ footer .text {
 }
 
 #ingredients .divider {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -469,7 +566,7 @@ footer .text {
 }
 
 #reviews .divider {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -522,7 +619,7 @@ footer .text {
 }
 
 #reviews .description {
-  background-image: url("images/Text_Background_reviews.png");
+  background-image: url("images/bg_text_reviews.png");
   display: inline-block;
   padding: 76px 65px 97px 66px;
   width: 639px;
