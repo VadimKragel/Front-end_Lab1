@@ -64,7 +64,27 @@
     <img class="dish" src="images/dish.png" alt="">
   </div>
 </section>
-<section id="ingredients"></section>
+<section id="ingredients">
+  <div class="container">
+    <div class="description">
+      <span class="text-header">
+        Fine ingredients
+      </span>
+      <div class="divider"><img src="images/ingredients_divider.png" alt=""></div>
+      <span class="text-description">
+        If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for
+        more. Perfect materials and freshly baked food, delicious Lambda cakes,&nbsp;&nbsp;muffins, and gourmet coffees make us
+        hard to resist!<br>Stop in today and check us out!
+      </span>
+      <div class="cook">
+        <img class="cook2" src="images/ingredient3.png" alt="">
+        <img class="cook2" src="images/ingredient2.png" alt="">
+        <img class="cook2" src="images/ingredient1.png" alt="">
+      </div>
+    </div>
+
+  </div>
+</section>
 <section id="menu">
   <div class="container">
     <div class="col">
@@ -167,7 +187,29 @@
     </div>
   </div>
 </section>
-<section id="reviews"></section>
+<section id="reviews">
+  <div class="container">
+    <span class="text-description-PreS">
+      “
+    </span>
+    <div class="description">
+      <span class="text-header">
+        Guest Reviews
+      </span>
+      <div class="divider"><img src="images/ingredients_divider.png" alt=""></div>
+
+      <span class="text-description">
+        If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for
+        more. Perfect materials and freshly baked food, delicious Lambda cakes,&nbsp;&nbsp;muffins, and gourmet coffees make us
+        hard to resist! Stop in today and check us out!
+      </span>
+      <span class="text-description-PS">
+        - food inc, New York
+      </span>
+    </div>
+
+  </div>
+</section>
 <section id="reservations">
   <div class="container">
     <div class="image1">
@@ -215,7 +257,8 @@
       <div class="header-text">About Us</div>
       <div class="divider"><img src="images/divider2.png" alt="divider"></div>
       <div class="text">Lambda's new and expanded Chelsea location<br>represents a truly authentic <b>Greek</b>
-        patisserie,<br>featuring breakfasts of fresh croissants and<br>steaming bowls of café.<br>Lamda the best restaurant in town
+        patisserie,<br>featuring breakfasts of fresh croissants and<br>steaming bowls of café.<br>Lamda the best
+        restaurant in town
       </div>
     </div>
     <div>
@@ -245,13 +288,13 @@
 <script>
     const req = document.querySelectorAll("#reservations .inputs-button  input:required");
     req.forEach(
-      element => element.oninput = function () {
-        let isEmpty = false;
-        req.forEach(element => isEmpty ||= (element.value == null || element.value === ""));
-        const btn = document.querySelector("#reservations .button");
-        btn.style.backgroundColor = isEmpty ? "" : "#c9a131";
-        btn.style.color = isEmpty ? "" : "white";
-      });
+        element => element.oninput = function () {
+            let isEmpty = false;
+            req.forEach(element => isEmpty ||= (element.value == null || element.value === ""));
+            const btn = document.querySelector("#reservations .button");
+            btn.style.backgroundColor = isEmpty ? "" : "#c9a131";
+            btn.style.color = isEmpty ? "" : "white";
+        });
 </script>
 </body>
 </html>

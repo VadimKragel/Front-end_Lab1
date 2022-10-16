@@ -398,99 +398,132 @@ footer .text {
   margin-bottom: 23px;
 }
 
-#reservations .content-box {
-  width: 436px;
+#ingredients {
+  background-image: url("images/bg_ingredients.png");
+  height: 758px;
+}
+
+#ingredients .container {
+  padding-top: 100px;
+  margin-left: 815px;
+  height: 570px;
+  width: 570px;
   text-align: center;
-  padding-top: 97px;
-  padding-right: 114px;
-  padding-left: 96px;
 }
 
-#reservations .label {
-  font-family: 'OpenSans', serif;
-  font-weight: bold;
-  font-size: 14px;
-  color: #c9a131;
+#ingredients .divider {
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-#reservations .left-inputs {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  height: 175px;
+#ingredients .text-header {
+  padding-top: 132px;
+  font-family: 'YesevaOne', serif;
+  font-size: 36px;
+  color: #ffffff;
 }
 
-#reservations .input {
-  font-family: 'OpenSans', serif;
-  font-weight: normal;
+#ingredients .text-description {
+  font-family: 'Lato', serif;
   font-size: 16px;
-  color: #7c7c7c;
-  width: 189px;
-  background: rgba(255, 255, 255, 0.45);
-  margin-top: 7px;
-  border: 1px solid #c9c9c9;
-  height: 31px;
-  padding-left: 7px;
-  word-spacing: -2px;
+  color: #efefef;
+  line-height: 1.5;
+  display: inline-block;
 }
 
-::placeholder {
-  font-style: italic;
-}
-
-#reservations .right-inputs {
-  text-align: left;
+#ingredients .cook {
+  width: 400px;
+  padding-left: 8px;
+  padding-top: 66px;
   display: flex;
-  flex-direction: column;
-  height: 175px;
-  margin-right: 6px;
 }
 
-#reservations .inputs {
-  display: flex;
-  width: 436px;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 37px;
-  margin-left: 3px;
-  height: 178px;
+#ingredients .cook2 {
+  flex: 1 1 auto;
+  margin: 0 13px;
 }
 
-#reservations .input:focus {
-  border: 1px solid #c9a131;
-  outline: none;
+#ingredients .description {
+  background-image: url("images/bg_quote.png");
+  display: inline-block;
+  padding: 76px 68px 76px 67px;
+  width: 435px;
 }
 
-#reservations .button {
-  border: none;
-  background-color: #a89e72;
-  color: #b4b4b4;
-  font-family: 'OpenSans', serif;
-  font-weight: normal;
-  font-size: 16px;
-  width: 202px;
-  margin-left: 4px;
-  height: 36px;
+#ingredients .dish {
+  float: right;
 }
 
-#reservations #date-label {
-  margin-top: 24px;
-  margin-bottom: -2px;
+#reviews {
+  background-image: url("images/bg_reviews.png");
+  height: 758px;
 }
 
-#reservations #email {
-  margin-top: 7px;
+#reviews .container {
+  padding-top: 100px;
+  margin-left: 415px;
+  height: 557px;
+  width: 770px;
+  text-align: center;
 }
 
-#reservations #party-label {
-  margin-top: 24px;
+#reviews .divider {
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-#reservations #party-number {
-  margin-top: 5px;
-  background: rgba(255, 255, 255, 0.45) url("images/icon_arrow.png") 177px 14px no-repeat;
+#reviews .text-header {
+  padding-top: 132px;
+  font-family: 'YesevaOne', serif;
+  font-size: 36px;
+  color: #ffffff;
 }
 
-#reservations #date {
-  background: rgba(255, 255, 255, 0.45) url("images/icon_date.png") 175px 8px no-repeat;
+#reviews .text-description {
+  font-family: 'Gentium-Bold', serif;
+  font-size: 25px;
+  color: #dde0df;
+  line-height: 1.8;
+  display: inline-block;
+}
+
+#reviews .text-description-PS {
+  padding-top: 28px;
+  font-family: 'Lato', serif;
+  font-size: 18px;
+  color: #dde0df;
+  line-height: 1.8;
+  display: inline-block;
+
+}
+
+#reviews .text-description-PreS {
+  position: absolute;
+  padding-left: 28px;
+  padding-top: 123px;
+  font-family: Georgia, serif;
+  font-size: 96px;
+  color: #9fa0a0;
+  line-height: 1.8;
+  display: inline-block;
+
+}
+
+#reviews .text-description-PS {
+  padding-top: 27px;
+  font-family: 'Lato', serif;
+  font-size: 18px;
+  color: #efefef;
+  line-height: 1.8;
+  display: inline-block;
+
+}
+
+#reviews .description {
+  background-image: url("images/Text_Background_reviews.png");
+  display: inline-block;
+  padding: 76px 65px 97px 66px;
+  width: 639px;
 }
