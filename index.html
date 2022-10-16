@@ -249,8 +249,8 @@
         let isEmpty = false;
         req.forEach(element => isEmpty ||= (element.value == null || element.value === ""));
         const btn = document.querySelector("#reservations .button");
-        btn.style.backgroundColor = isEmpty ? this.style.backgroundColor : "#c9a131";
-        btn.style.color = isEmpty ? this.style.backgroundColor : "white";
+        btn.style.backgroundColor = isEmpty ? "" : "#c9a131";
+        btn.style.color = isEmpty ? "" : "white";
       });
 </script>
 </body>

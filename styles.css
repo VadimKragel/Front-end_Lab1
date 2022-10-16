@@ -29,6 +29,7 @@ body {
   margin: 0;
   width: 1600px;
 }
+
 header {
   background-image: url("images/bg_header.png");
   height: 159px;
@@ -350,7 +351,7 @@ footer .text {
   height: 718px;
 }
 
-#reservations .container{
+#reservations .container {
   display: flex;
   width: 1263px;
   margin: auto;
@@ -358,12 +359,12 @@ footer .text {
   justify-content: space-between;
 }
 
-#reservations .image1{
+#reservations .image1 {
   padding-top: 100px;
   padding-left: 47px;
 }
 
-#reservations .image2{
+#reservations .image2 {
   padding-top: 100px;
   padding-left: 29px;
 }
@@ -405,21 +406,21 @@ footer .text {
   padding-left: 96px;
 }
 
-#reservations .label{
+#reservations .label {
   font-family: 'OpenSans', serif;
   font-weight: bold;
   font-size: 14px;
   color: #c9a131;
 }
 
-#reservations .left-inputs{
+#reservations .left-inputs {
   text-align: left;
   display: flex;
   flex-direction: column;
   height: 175px;
 }
 
-#reservations .input{
+#reservations .input {
   font-family: 'OpenSans', serif;
   font-weight: normal;
   font-size: 16px;
@@ -432,10 +433,12 @@ footer .text {
   padding-left: 7px;
   word-spacing: -2px;
 }
-::placeholder{
+
+::placeholder {
   font-style: italic;
 }
-#reservations .right-inputs{
+
+#reservations .right-inputs {
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -443,7 +446,7 @@ footer .text {
   margin-right: 6px;
 }
 
-#reservations .inputs{
+#reservations .inputs {
   display: flex;
   width: 436px;
   flex-direction: row;
@@ -458,7 +461,7 @@ footer .text {
   outline: none;
 }
 
-#reservations .button{
+#reservations .button {
   border: none;
   background-color: #a89e72;
   color: #b4b4b4;
@@ -470,24 +473,24 @@ footer .text {
   height: 36px;
 }
 
-#reservations #date-label{
+#reservations #date-label {
   margin-top: 24px;
   margin-bottom: -2px;
 }
 
-#reservations #email{
+#reservations #email {
   margin-top: 7px;
 }
 
-#reservations #party-label{
+#reservations #party-label {
   margin-top: 24px;
 }
 
-#reservations #party-number{
+#reservations #party-number {
   margin-top: 5px;
-  background: rgba(255, 255, 255, 0.45) url("images/icon_arrow.png")  177px 14px no-repeat;
+  background: rgba(255, 255, 255, 0.45) url("images/icon_arrow.png") 177px 14px no-repeat;
 }
 
-#reservations #date{
+#reservations #date {
   background: rgba(255, 255, 255, 0.45) url("images/icon_date.png") 175px 8px no-repeat;
 }
