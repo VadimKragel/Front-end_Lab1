@@ -211,7 +211,7 @@ footer .text {
 #menu {
   background-image: url("images/bg_menu.png");
   background-color: #f2f5f5;
-  height: 1002px;
+  height: 994px;
 }
 
 #menu .container {
@@ -348,7 +348,7 @@ footer .text {
 #reservations {
   background-color: #f3f5f5;
   background-image: url("images/bg_reservations.png");
-  height: 718px;
+  height: 710px;
 }
 
 #reservations .container {
