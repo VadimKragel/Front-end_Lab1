@@ -39,6 +39,7 @@ header {
 }
 
 header .title-text {
+  text-decoration: none;
   font-family: 'YesevaOne', sans-serif;
   color: #f0f0f0;
   font-size: 36px;
@@ -55,21 +56,21 @@ header .container {
 }
 
 header .nav {
+  padding-inline: 0;
+  margin-block: 0;
+  list-style-type: none;
   align-self: stretch;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 735px;
-  font-family: 'Gentium-Bold', sans-serif;
-  font-size: 21px;
-  color: white;
 }
 
-header .nav > div:hover {
+header .nav > li:hover {
   border-top: 3px solid #c2c0b8;
 }
 
-header .nav > div {
+header .nav > li {
   display: flex;
   border-top: 3px solid transparent;
   padding-left: 13px;
@@ -77,7 +78,11 @@ header .nav > div {
   padding-bottom: 9px;
 }
 
-header .nav > div > div {
+header .nav > li > a {
+  font-family: 'Gentium-Bold', sans-serif;
+  font-size: 21px;
+  color: white;
+  text-decoration: none;
   align-self: end;
 }
 
@@ -99,14 +104,19 @@ footer {
   height: 320px;
   background-color: #191919;
 }
-
+footer p{
+  margin-block: 0;
+}
+footer .bold-text{
+  font-weight: bold;
+}
 footer .container {
   width: 71.5%;
   height: inherit;
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: start;
 }
 
 footer .container > div {
@@ -114,13 +124,17 @@ footer .container > div {
   color: #fefefe;
   text-align: center;
 }
-
+footer .container > div:nth-child(1){
+  width: 346px;
+}
 footer .container > div:nth-child(2) {
+  width: 199px;
   margin-left: 128px;
 }
 
 footer .container > div:nth-child(3) {
-  margin-left: 199px;
+  width: 201px;
+  margin-left: 198px;
 }
 
 footer .cards {
@@ -143,17 +157,16 @@ footer .socials > a {
 }
 
 footer .header-text {
+  margin-block: 0;
   font-family: 'YesevaOne', sans-serif;
   font-size: 21px;
-}
-
-footer .divider > img {
-  width: 199px;
+  font-weight: normal;
 }
 
 footer .divider {
   margin-top: 16px;
   margin-bottom: 13px;
+  width: 199px;
 }
 
 footer .text {
@@ -176,16 +189,18 @@ footer .text {
 }
 
 #promo .main-txt {
+  margin-block: 0;
   font-family: 'YesevaOne', sans-serif;
   font-size: 90px;
+  font-weight: normal;
   line-height: 1.3;
   color: #f8f7f1;
 }
 
 #promo .divider {
-  margin-left: 3px;
-  margin-top: 24px;
-  margin-bottom: 30px;
+  display: block;
+  margin: 24px auto 35px;
+  padding-left: 5px;
 }
 
 #promo .buttons > button {
@@ -213,6 +228,9 @@ footer .text {
   background-color: #f2f5f5;
   height: 994px;
 }
+#menu p, h5, h3{
+  margin-block: 0;
+}
 
 #menu .container {
   width: 1034px;
@@ -224,7 +242,8 @@ footer .text {
 }
 
 #menu .divider {
-  margin-top: 5px;
+  margin-top: 14px;
+  margin-bottom: 5px;
 }
 
 #menu .col {
@@ -238,6 +257,7 @@ footer .text {
   color: #c89f2d;
   font-family: 'YesevaOne', sans-serif;
   font-size: 16pt;
+  font-weight: normal;
 }
 
 #menu .price {
@@ -267,18 +287,20 @@ footer .text {
 }
 
 #menu ul > li {
-  margin-bottom: 34px;
+  margin-bottom: 35px;
 }
 
 #menu .header-box {
+  text-align: center;
+  margin-bottom: 18px;
+  padding-top: 28px;
+}
+#menu .header-box > h3 {
   font-family: 'YesevaOne', sans-serif;
   font-size: 36px;
   color: #cc9900;
-  text-align: center;
-  margin-bottom: 18px;
-  padding-top: 29px;
+  font-weight: normal;
 }
-
 #menu .special {
   display: inline-block;
   padding: 2px 12px 3px 13px;
