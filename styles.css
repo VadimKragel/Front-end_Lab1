@@ -550,13 +550,15 @@ footer .text {
 }
 
 #ingredients .text-header {
-  padding-top: 132px;
+  margin: 0;
   font-family: 'YesevaOne', serif;
   font-size: 36px;
   color: #ffffff;
+  font-weight: normal;
 }
 
 #ingredients .text-description {
+  margin: 0;
   font-family: 'Lato', serif;
   font-size: 16px;
   color: #efefef;
@@ -607,10 +609,11 @@ footer .text {
 }
 
 #reviews .text-header {
-  padding-top: 132px;
+  margin: 0;
   font-family: 'YesevaOne', serif;
   font-size: 36px;
   color: #ffffff;
+  font-weight: normal;
 }
 
 #reviews .text-description {
@@ -619,6 +622,7 @@ footer .text {
   color: #dde0df;
   line-height: 1.8;
   display: inline-block;
+  margin: 0;
 }
 
 #reviews .text-description-PS {
