@@ -336,13 +336,18 @@ footer .text {
 #about .divider {
   margin-left: -2px;
   margin-top: 13px;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
+}
+
+#about p{
+  margin-block: 0;
 }
 
 #about .text-header {
   font-family: 'YesevaOne', serif;
   font-size: 36px;
   color: #cc9900;
+  font-weight: normal;
 }
 
 #about .text-description {
@@ -354,8 +359,8 @@ footer .text {
 }
 
 #about .cook {
-  padding-left: 72px;
-  padding-top: 48px;
+  padding-left: 71px;
+  padding-top: 49px;
 }
 
 #about .description {
@@ -367,6 +372,10 @@ footer .text {
 
 #about .dish {
   float: right;
+}
+
+#reservations p{
+  margin-block: 0;
 }
 
 #reservations {
@@ -381,6 +390,7 @@ footer .text {
   margin: auto;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 #reservations .image1 {
@@ -397,6 +407,7 @@ footer .text {
   font-family: 'YesevaOne', serif;
   font-size: 36px;
   color: #cc9900;
+  font-weight: normal;
 }
 
 #reservations .text-description {
